@@ -27,12 +27,8 @@ label {
     line-height: 1.2em;
 }
 
-input {
-    border: rgb(67, 163, 230) 1px solid;
-    border-radius: 2px;
-}
 
-textarea {
+.inputText {
     border: rgb(67, 163, 230) 1px solid;
     border-radius: 2px;
 }
