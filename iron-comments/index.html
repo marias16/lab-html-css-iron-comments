@@ -11,8 +11,16 @@
 </head>
 <body>
 
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+    <form id="form-container" method="post" action="">
+        <label for="name"> Name: </label>
+        <input type="text" id="name"> 
+        <label for ="email">Email:</label>
+        <input type="email" id="email"> 
+        <label for="comment">Comment:</label>
+        <textarea id="textarea" rows="4" cols="10"></textarea>
+        <input type="checkbox" name="emailupdates" value="true" id="email-updates">
+        <label for="email-updates">Receive email updates?</label> 
+        <button type="submit" >Submit</button>
     </form>
 
 </body>
