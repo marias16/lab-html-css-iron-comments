@@ -2,10 +2,45 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw; 
+    background-color: rgb(25, 33, 41);   
+    color: white;
+    
 }
 
 #form-container {
+    width: 250px;
+    padding: 25px 40px 15px 20px;
+    box-sizing: border-box;
     margin: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 3px;
+    border: 2px solid rgb(67, 163, 230);
+
 }
+
+label {
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+input {
+    border: rgb(67, 163, 230) 1px solid;
+}
+
+textarea {
+    border: rgb(67, 163, 230) 1px solid;
+}
+
+button {
+    width: 60px;
+    text-align:center;
+    background-color: rgb(67, 163, 230);
+    color: white;
+    border-radius: 11px;
+    padding: 5px 0px;
+}
+
