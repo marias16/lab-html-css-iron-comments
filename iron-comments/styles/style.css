@@ -29,10 +29,12 @@ label {
 
 input {
     border: rgb(67, 163, 230) 1px solid;
+    border-radius: 2px;
 }
 
 textarea {
     border: rgb(67, 163, 230) 1px solid;
+    border-radius: 2px;
 }
 
 button {
